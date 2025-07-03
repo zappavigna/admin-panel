@@ -13,6 +13,9 @@ switch($currentSection) {
     case 'custom-code':
         include __DIR__ . '/wordpress/custom-code.php';
         break;
+    case 'manutenzione':
+        include __DIR__ . '/wordpress/manutenzione.php';
+    break;
     default:
         include __DIR__ . '/wordpress/post-type.php';
 }

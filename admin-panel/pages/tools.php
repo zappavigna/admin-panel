@@ -10,6 +10,9 @@ switch($currentSection) {
     case 'regex':
         include __DIR__ . '/tools/regex.php';
         break;
+    case 'phpmailer':
+        include __DIR__ . '/tools/phpmailer.php';
+        break; 
     default:
         include __DIR__ . '/tools/htaccess.php';
 }
